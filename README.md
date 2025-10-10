@@ -10,7 +10,7 @@ This lightweight .bat script provides an instant solution; it uses a user-assign
 All you need to install on top is;
 
 - ffmpeg (a bunch of audio codec & editing tools which you won't see after install, but can be utilised via Command Prompt - or in our case, a .bat script).
-- Voicemeeter (a virtual audio routing program that is donationware, but can be used for free). We need this because system audio is virtual, and basically needs to be routed via a specialised software ‘mixer/control panel’ in order for Ableton to recognise it, whilst allowing you to monitor what you're recording via your headphones/soundcard. Voicemeeter looks and behaves similarly to the software control panel you might have for your physical soundcard.
+- Voicemeeter (a virtual audio routing program that is donationware, but can be used for free). We need this because system audio is virtual, and basically needs to be routed via a specialised software ‘mixer/control panel’ in order for Ableton to receive your computer audio as a separate recordable input source. The virtual control panel (Voicemeeter) also allows you to monitor what you're recording via your headphones/soundcard. Voicemeeter looks and behaves similarly to the software UI or control panel you might have for your physical soundcard.
 
 There should be nothing malicious in this file, which I simply created in Notepad and saved with the .bat extension.
 
