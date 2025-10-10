@@ -1,0 +1,39 @@
+SJZ's Super Handy System Audio Auto-Record Tool Of Wonder & Joy
+
+v1.0 - 10th October 2025
+
+CC0 - Free to use & Distribute
+https://linktr.ee/superjimz
+
+
+---Instructions---
+
+
+=================================
+SETTING UP THE SOFTWARE & DRIVERS
+=================================
+
+- Download ffmpeg, which will give you a bunch of powerful hidden audio codec and editing tools via Command Prompt, including the ones we want for this process.
+- Install Voicemeeter (standard version is fine, and preferable for beginners... you can also install VB-Audio Cable, though it's less user friendly).
+- In PC Sound Settings, set Sound Output as "Voicemeeter Input | VB-Audio Voicemeeter VAIO".
+- Don't worry about the PC Sound Settings input as B3... this is just an extra virtual input; B1 & B2 have some DAW-specific functions.
+- In Voicemeeter settings, ensure A1 Hardware Out is set to your system's main playback device or soundcard (in my case, an Apogee Duet, which has its own ASIO drivers, so I kept everything within the ASIO architecture - your own situation may differ - also remember to keep your Sample Rate matched between DAW & soundcard as you make all these changes).
+- In Ableton, set Driver as ASIO, source as Voicemeeter Virtual ASIO, enabled Mono & Stereo inputs, and set Input on the record track itself to 1/2 (Stereo), not just 1 or 2 (which would produce a 'Mono' effect and sound different to what you hear whilst monitoring).
+- You can now record directly into Ableton if desired, which would still give you all the individual 'samples' or clips you've recorded once you Collect All & Save in Ableton. However you'll still have to rename and sort them, unless you remember to individually export each recorded clip as you go. Possibly better to record straight to disk with the below method, then categorise, rename, and load your recorded files into Ableton as needed.
+
+
+======================================================
+SETTING UP THE RECORDING TOOL (SHORTCUT TO .BAT SCRIPT)
+======================================================
+
+- The uncompressed WAV files are output to "C:\Users\user\Music\System Audio" according to this script, as that's where I save them on my own PC; however, this folder won't exist for you by default! Change this to a directory of your choice by right-clicking on "start_recording.bat" and selecting 'Edit in Notepad'.
+- Scroll to where you see the directory listed above, and replace it with a local directory of your choice. Save & exit Notepad.
+- Right-click "start_recording.bat" and Create Shortcut (might be in More Options).
+- Right-click the Shortcut you made and select 'Properties'. It's probably best to use the hotkey CTRL+SHIFT+5 (remember to hit 'Apply'), which will open the script and start the recording process. You can use any available combination of CTRL+SHIFT+[x] or CTRL+ALT+[x] but many options will be in use already.
+- Move the Shortcut to your Desktop, or inside Start Menu > Programs (or a subfolder). It won't work otherwise, and we'll be calling it with the hotkey combination anyway.
+- Press CTRL+SHIFT+R to start recording.
+- Press "Q" or exit the script to finish recording.
+
+***NOTES***
+
+- If you change the name of the parent folder ("SJZ's System Audio Record Tool"), your Shortcut will lose its reference point and you'll get an error when trying to use it. To fix this, delete your Shortcut, create a new one from the script, place this back on the Desktop (or wherever you'd placed the old Shortcut), and re-enter your hotkey combination via Properties. 
