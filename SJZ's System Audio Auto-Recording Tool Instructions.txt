@@ -20,6 +20,7 @@ SETTING UP THE SOFTWARE & DRIVERS
 - In Voicemeeter settings, ensure A1 Hardware Out is set to your system's main playback device or soundcard (in my case, an Apogee Duet, which has its own ASIO drivers, so I kept everything within the ASIO architecture - your own situation may differ - also remember to keep your Sample Rate matched between DAW & soundcard as you make all these changes).
 - In Ableton, set Driver as ASIO, source as Voicemeeter Virtual ASIO, enabled Mono & Stereo inputs, and set Input on the record track itself to 1/2 (Stereo), not just 1 or 2 (which would produce a 'Mono' effect and sound different to what you hear whilst monitoring).
 - You can now record directly into Ableton if desired, which would still give you all the individual 'samples' or clips you've recorded once you Collect All & Save in Ableton. However you'll still have to rename and sort them, unless you remember to individually export each recorded clip as you go. Possibly better to record straight to disk with the below method, then categorise, rename, and load your recorded files into Ableton as needed.
+- Remember to enable "System Tray" and "Run on Windows Startup" via the VoiceMeeter settings menu, otherwise you'll have to repeat the above steps whenever you restart your computer. 
 
 
 ======================================================
@@ -37,3 +38,4 @@ SETTING UP THE RECORDING TOOL (SHORTCUT TO .BAT SCRIPT)
 ***NOTES***
 
 - If you change the name of the parent folder ("SJZ's System Audio Record Tool"), your Shortcut will lose its reference point and you'll get an error when trying to use it. To fix this, delete your Shortcut, create a new one from the script, place this back on the Desktop (or wherever you'd placed the old Shortcut), and re-enter your hotkey combination via Properties. 
+
