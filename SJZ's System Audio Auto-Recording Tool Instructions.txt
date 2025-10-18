@@ -38,4 +38,5 @@ SETTING UP THE RECORDING TOOL (SHORTCUT TO .BAT SCRIPT)
 ***NOTES***
 
 - If you change the name of the parent folder ("SJZ's System Audio Record Tool"), your Shortcut will lose its reference point and you'll get an error when trying to use it. To fix this, delete your Shortcut, create a new one from the script, place this back on the Desktop (or wherever you'd placed the old Shortcut), and re-enter your hotkey combination via Properties. 
+- If you ever need to disconnect your soundcard's USB connection, you'll probably find that your Windows Sound output reverts to VB-Cable, and you won't be able to load Ableton projects etc. Simply close your DAW, switch back to your soundcard in Windows sound output settings, and reopen.
 
